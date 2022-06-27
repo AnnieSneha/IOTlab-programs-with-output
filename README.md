@@ -6,7 +6,7 @@ void setup()<br>
   pinMode(13, OUTPUT);<br>
 
 }<br>
-OUTPUT<br.
+OUTPUT<br>
 ![image](https://user-images.githubusercontent.com/97939284/175920829-41e168c8-5a6c-4a1a-93a4-1fdff569c922.png)
 
 # Program 2
