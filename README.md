@@ -38,3 +38,37 @@ void loop()<br>
   digitalWrite(11, LOW);<br>
   delay(1000);<br>
 }<br>
+
+OUTPUT:<br>
+
+# Program 3
+
+void setup() 
+{
+  pinMode(11, OUTPUT);
+  pinMode(10, OUTPUT);
+  pinMode(9, OUTPUT);
+}
+void loop()
+{
+  displayColor(0b100);
+  delay(1000);
+  displayColor(0b010);
+  delay(1000);
+  displayColor(0b001);
+  delay(1000);
+  displayColor(0b101);
+  delay(1000);
+  displayColor(0b011);
+  delay(1000);
+  displayColor(0b110);
+  delay(1000);
+  displayColor(0b111);
+  delay(1000);
+}
+void displayColor(byte color)
+{
+  digitalWrite(11,!bitRead(color,2));
+  digitalWrite(10,!bitRead(color,1));
+  digitalWrite(9,!bitRead(color,0));
+}
