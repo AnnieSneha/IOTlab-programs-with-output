@@ -42,7 +42,6 @@ void loop()<br>
 OUTPUT:<br>
 
 # Program 3
-
 void setup()<br> 
 {<br>
   pinMode(11, OUTPUT);<br>
@@ -72,3 +71,7 @@ void displayColor(byte color)<br>
   digitalWrite(10,!bitRead(color,1));<br>
   digitalWrite(9,!bitRead(color,0));<br>
 }<br>
+
+OUPUT:<br>
+
+
